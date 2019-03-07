@@ -1,11 +1,16 @@
 {
-  "name": "redux-todo",
+  "name": "redux-demo-app",
+  "description": "Redux todo demo app",
   "version": "0.1.0",
+  "author": "Keith Brewster",
   "private": true,
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "2.1.1"
+    "papercss": "^1.6.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-redux": "^6.0.0",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

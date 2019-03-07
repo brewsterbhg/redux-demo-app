@@ -1,0 +1,10 @@
+.add-todo-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.add-todo-wrapper > input {
+  margin-right: 1rem;
+}

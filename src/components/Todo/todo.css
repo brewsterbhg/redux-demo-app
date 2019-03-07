@@ -1,0 +1,43 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  border: 1px solid #ccc;
+  min-height: 30px;
+  min-width: 100%;
+  padding: 10px 10px 10px 20px;
+  font-size: 30px;
+  margin: 5px;
+}
+
+.complete {
+  background-image: repeating-linear-gradient(
+    180deg,
+    transparent 0%,
+    transparent 48%,
+    #000 50%,
+    transparent 52%,
+    transparent 100%
+  );
+}
+
+.complete:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #333;
+}
+
+.todo:hover {
+  cursor: pointer;
+}
+
+.remove-todo {
+  border: none;
+  color: #ff0000;
+  float: right;
+}
