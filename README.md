@@ -4,6 +4,6 @@ This application is for demonstration purposes (walking through refactoring to u
 
 ### Getting started
 
-Clone the repo: `git clone https://github.com/brewsterbhg/redux-demo-app.git`
-Install dependencies: `npm install`
+Clone the repo: `git clone https://github.com/brewsterbhg/redux-demo-app.git`  
+Install dependencies: `npm install`  
 Start the application: `npm run start`
