@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { SHOW_ALL, SHOW_ACTIVE, SHOW_COMPLETED } from "../../utils/constants";
 import "./visibility-filter.css";
 
-const VisibilityFilter = ({ onClick, currentFilter }) => (
+const VisibilityFilter = ({ onClick }) => (
   <Fragment>
     <h4>Filter:</h4>
     <div className="visibility-wrapper">
@@ -21,8 +21,7 @@ const VisibilityFilter = ({ onClick, currentFilter }) => (
 );
 
 VisibilityFilter.propTypes = {
-  onClick: PropTypes.func.isRequired,
-  currentFilter: PropTypes.string.isRequired
+  onClick: PropTypes.func.isRequired
 };
 
 export default VisibilityFilter;

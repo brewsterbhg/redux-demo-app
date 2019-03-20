@@ -15,9 +15,11 @@ const Todo = ({ id, completed, text, onToggle, onRemove }) => (
 );
 
 Todo.propTypes = {
-  onClick: PropTypes.func.isRequired,
+  id: PropTypes.number.isRequired,
   completed: PropTypes.bool.isRequired,
-  text: PropTypes.string.isRequried
+  text: PropTypes.string.isRequired,
+  onToggle: PropTypes.func.isRequired,
+  onRemove: PropTypes.func.isRequired
 };
 
 export default Todo;
